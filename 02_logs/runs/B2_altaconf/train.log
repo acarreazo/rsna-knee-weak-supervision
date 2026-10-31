@@ -1,0 +1,31 @@
+===== inicio runs/B2_altaconf/train | 2026-10-30 08:22:35 | python 3.13.15 =====
+dispositivo: cuda Tesla T4
+train=425 val=75 dorado=56
+fracción de etiquetas usadas (w>0): 0.739  peso medio: 0.739
+pos_weight: {'ACL': np.float32(2.16), 'MCL': np.float32(2.38), 'Medial Meniscus': np.float32(1.38), 'Lateral Meniscus': np.float32(2.31), 'Medial OA': np.float32(1.92), 'Lateral OA': np.float32(2.57), 'PF OA': np.float32(1.92), 'Effusion': np.float32(1.03), 'Synovitis': np.float32(2.52), "Baker's": np.float32(1.75), 'Contusion': np.float32(1.71), 'Fracture': np.float32(2.91)}
+arch=resnet50 parámetros=23.80M lr_head=0.001 lr_backbone=0.0001
+ep 01 loss=0.8380 AUC_val(débil)=0.6025 t=0.3min
+ep 02 loss=0.8216 AUC_val(débil)=0.5785 t=0.7min
+ep 03 loss=0.7878 AUC_val(débil)=0.6768 t=1.0min
+ep 04 loss=0.7245 AUC_val(débil)=0.6926 t=1.3min
+ep 05 loss=0.6418 AUC_val(débil)=0.6622 t=1.6min
+ep 06 loss=0.5769 AUC_val(débil)=0.7013 t=1.9min
+ep 07 loss=0.5237 AUC_val(débil)=0.6515 t=2.3min
+ep 08 loss=0.4390 AUC_val(débil)=0.6839 t=2.6min
+ep 09 loss=0.4183 AUC_val(débil)=0.6888 t=2.9min
+ep 10 loss=0.3556 AUC_val(débil)=0.6797 t=3.2min
+early stopping
+        hallazgo  n_pos   auc  umbral  precision  recall    f1  f1@0.5
+             ACL     23 0.779   0.469      0.581   0.783 0.667   0.679
+             MCL      9 0.586   0.197      0.194   0.778 0.311   0.231
+ Medial Meniscus     24 0.527   0.192      0.442   0.958 0.605   0.508
+Lateral Meniscus     23 0.635   0.389      0.500   0.652 0.566   0.553
+       Medial OA     15 0.720   0.662      0.588   0.667 0.625   0.556
+      Lateral OA     11 0.792   0.429      0.429   0.818 0.562   0.571
+           PF OA     20 0.710   0.433      0.500   0.750 0.600   0.596
+        Effusion     34 0.697   0.505      0.673   0.971 0.795   0.795
+       Synovitis     25 0.702   0.624      0.643   0.360 0.462   0.591
+         Baker's     11 0.806   0.450      0.538   0.636 0.583   0.667
+       Contusion     18 0.747   0.337      0.412   0.778 0.538   0.605
+        Fracture     17 0.541   0.172      0.353   0.353 0.353   0.000
+==> B2_altaconf: AUC macro DORADO = 0.6869 IC95=[0.634,0.741] | F1 macro = 0.556 | 3.2 min

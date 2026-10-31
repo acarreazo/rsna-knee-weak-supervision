@@ -1,0 +1,88 @@
+{
+  "reglas": {
+    "auc_macro": 0.7844199658709202,
+    "ic95_auc_macro": [
+      0.7420070151743224,
+      0.8226437645381862
+    ],
+    "acuerdo_medio": 0.7600574712643678,
+    "tasa_ruido_media": 0.23994252873563215,
+    "kappa_medio": 0.42484545431588017
+  },
+  "nli": {
+    "auc_macro": 0.6383474116978828,
+    "ic95_auc_macro": [
+      0.5876953525551205,
+      0.6885596015159414
+    ],
+    "acuerdo_medio": 0.45545977011494254,
+    "tasa_ruido_media": 0.5445402298850576,
+    "kappa_medio": 0.08869190337265997
+  },
+  "ensamble": {
+    "auc_macro": 0.7655780344814858,
+    "ic95_auc_macro": [
+      0.7201405258654243,
+      0.8069950068801397
+    ],
+    "acuerdo_medio": 0.6954022988505747,
+    "tasa_ruido_media": 0.30459770114942525,
+    "kappa_medio": 0.32411938490925274
+  },
+  "acuerdo_por_idioma": [
+    {
+      "idioma": "en",
+      "n_estudios": 28,
+      "acuerdo": 0.8095238095238095,
+      "sensibilidad": 0.7777777777777778
+    },
+    {
+      "idioma": "es",
+      "n_estudios": 10,
+      "acuerdo": 0.8,
+      "sensibilidad": 0.6551724137931034
+    },
+    {
+      "idioma": "tr",
+      "n_estudios": 6,
+      "acuerdo": 0.75,
+      "sensibilidad": 0.6428571428571429
+    },
+    {
+      "idioma": "ru",
+      "n_estudios": 3,
+      "acuerdo": 0.6666666666666666,
+      "sensibilidad": 0.08333333333333333
+    },
+    {
+      "idioma": "el",
+      "n_estudios": 3,
+      "acuerdo": 0.6111111111111112,
+      "sensibilidad": 0.42105263157894735
+    },
+    {
+      "idioma": "otro",
+      "n_estudios": 3,
+      "acuerdo": 0.5833333333333334,
+      "sensibilidad": 0.07142857142857142
+    },
+    {
+      "idioma": "de",
+      "n_estudios": 2,
+      "acuerdo": 0.6666666666666666,
+      "sensibilidad": 0.6
+    },
+    {
+      "idioma": "nl",
+      "n_estudios": 2,
+      "acuerdo": 0.6666666666666666,
+      "sensibilidad": 0.5333333333333333
+    },
+    {
+      "idioma": "pt",
+      "n_estudios": 1,
+      "acuerdo": 0.6666666666666666,
+      "sensibilidad": 0.2
+    }
+  ]
+}

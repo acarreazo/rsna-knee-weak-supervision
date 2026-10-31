@@ -1,0 +1,17 @@
+- 2026-10-30 08:08:37 — 01 inventario: 4407 estudios, 58 dorados, 10 idiomas; cobertura sag_fluid=94.2%
+- 2026-10-30 08:08:45 — 02 extractor reglas: 4407 reportes etiquetados
+- 2026-10-30 08:08:55 — 04 subconjunto: {'train': 425, 'val': 75, 'test_dorado': 56}
+- 2026-10-30 08:11:54 — 02b NLI (MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7) sobre 558 reportes
+- 2026-10-30 08:12:39 — 03 validación extractor: reglas AUC=0.784 ruido=0.240, nli AUC=0.638 ruido=0.545, ensamble AUC=0.766 ruido=0.305
+- 2026-10-30 08:13:29 — 05 cache sag_fluid: 556/556 estudios OK
+- 2026-10-30 08:14:13 — 05 cache cor_fluid: 554/556 estudios OK
+- 2026-10-30 08:15:34 — 06 run A1_scratch (scratch, sag_fluid, bce, ruido=peso, posw=sqrt): AUC dorado=0.5717 [0.506,0.630], AUC val=0.6203, 1.0 min
+- 2026-10-30 08:19:13 — 06 run A2_resnet50 (resnet50, sag_fluid, bce, ruido=peso, posw=sqrt): AUC dorado=0.6584 [0.601,0.716], AUC val=0.7084, 3.2 min
+- 2026-10-30 08:22:31 — 06 run B1_focal (resnet50, sag_fluid, focal, ruido=peso, posw=sqrt): AUC dorado=0.6984 [0.645,0.750], AUC val=0.7055, 2.9 min
+- 2026-10-30 08:26:08 — 06 run B2_altaconf (resnet50, sag_fluid, bce, ruido=alta_conf, posw=sqrt): AUC dorado=0.6869 [0.634,0.741], AUC val=0.7013, 3.2 min
+- 2026-10-30 08:29:25 — 06 run B3_coronal (resnet50, cor_fluid, bce, ruido=peso, posw=sqrt): AUC dorado=0.6864 [0.627,0.743], AUC val=0.7079, 2.9 min
+- 2026-10-30 08:33:38 — 06 run C1_sin_posw (resnet50, sag_fluid, bce, ruido=peso, posw=none): AUC dorado=0.6724 [0.614,0.728], AUC val=0.7336, 3.8 min
+- 2026-10-30 08:37:14 — 06 run C2_sampler (resnet50, sag_fluid, bce, ruido=peso, posw=sqrt): AUC dorado=0.6915 [0.642,0.737], AUC val=0.6938, 3.2 min
+- 2026-10-30 08:37:25 — 07 Grad-CAM A2_resnet50: 10 casos en 5 hallazgos
+- 2026-10-30 08:37:33 — 07 Grad-CAM A1_scratch: 10 casos en 5 hallazgos
+- 2026-10-30 08:44:00 — 08 tablas consolidadas: 7 runs

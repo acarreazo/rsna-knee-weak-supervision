@@ -1,0 +1,16 @@
+===== inicio 05_cache_cor_fluid | 2026-10-30 08:13:30 | python 3.13.15 =====
+slot=cor_fluid estudios=556 workers=4 -> /kaggle/working/p1/cache/cor_fluid
+  50/556
+  100/556
+  150/556
+  200/556
+  250/556
+  300/556
+  350/556
+  400/556
+  450/556
+  500/556
+  550/556
+OK: 554/556 (99.6%)
+fuente de lateralidad: {'geometria': 316, 'tag': 238}
+errores (muestra): ['sin_archivos', 'sin_archivos']

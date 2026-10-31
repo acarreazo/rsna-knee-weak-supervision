@@ -1,0 +1,14 @@
+===== inicio 01_inventario_metadatos | 2026-10-30 08:08:36 | python 3.13.15 =====
+datos en: /kaggle/input/competitions/rsna-knee-abnormality-detection
+train.csv (4407, 14) columnas: ['StudyInstanceUID', 'Report', 'ACL', 'MCL', 'Medial Meniscus', 'Lateral Meniscus', 'Medial OA', 'Lateral OA', 'PF OA', 'Effusion', 'Synovitis', "Baker's", 'Contusion', 'Fracture']
+train_series.csv (24371, 5) columnas: ['StudyInstanceUID', 'SeriesInstanceUID', 'Fluid_Sensitive', 'Fat_Suppression', 'Anatomical_Plane']
+n_estudios: 4407
+n_series: 24371
+n_dorados: 58
+n_con_reporte: 4407
+idiomas: {'en': 1740, 'es': 793, 'tr': 546, 'el': 321, 'de': 262, 'otro': 257, 'ru': 220, 'nl': 151, 'fr': 75, 'pt': 42}
+idiomas_dorados: {'en': 28, 'es': 10, 'tr': 6, 'ru': 3, 'el': 3, 'otro': 3, 'nl': 2, 'de': 2, 'pt': 1}
+prevalencia_dorados: {'ACL': 0.414, 'MCL': 0.155, 'Medial Meniscus': 0.448, 'Lateral Meniscus': 0.397, 'Medial OA': 0.259, 'Lateral OA': 0.19, 'PF OA': 0.362, 'Effusion': 0.603, 'Synovitis': 0.466, "Baker's": 0.207, 'Contusion': 0.328, 'Fracture': 0.31}
+palabras_reporte_p50: 129.0
+series_por_combo: {'Sagittal|fluid=0': 5197, 'Axial|fluid=1': 4719, 'Sagittal|fluid=1': 4667, 'Coronal|fluid=1': 4624, 'Coronal|fluid=0': 3985, 'Axial|fluid=0': 1179}
+cobertura_slots: {'sag_fluid': 0.9416836850465169, 'cor_fluid': 0.9639210347174949}

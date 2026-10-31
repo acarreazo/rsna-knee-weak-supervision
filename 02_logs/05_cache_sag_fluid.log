@@ -1,0 +1,15 @@
+===== inicio 05_cache_sag_fluid | 2026-10-30 08:12:41 | python 3.13.15 =====
+slot=sag_fluid estudios=556 workers=4 -> /kaggle/working/p1/cache/sag_fluid
+  50/556
+  100/556
+  150/556
+  200/556
+  250/556
+  300/556
+  350/556
+  400/556
+  450/556
+  500/556
+  550/556
+OK: 556/556 (100.0%)
+fuente de lateralidad: {'geometria': 317, 'tag': 239}

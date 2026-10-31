@@ -1,0 +1,24 @@
+===== inicio 07_gradcam | 2026-10-30 08:37:18 | python 3.13.15 =====
+       hallazgo origen     prob  corte_max_atencion
+            ACL dorado 0.951342                   7
+            ACL dorado 0.925840                   7
+Medial Meniscus dorado 0.978469                   4
+Medial Meniscus dorado 0.914837                   3
+       Effusion dorado 0.980546                   4
+       Effusion dorado 0.964221                   5
+        Baker's dorado 0.759321                   5
+        Baker's dorado 0.752407                   4
+      Contusion dorado 0.902857                   5
+      Contusion dorado 0.882661                   3
+===== inicio 07_gradcam | 2026-10-30 08:37:29 | python 3.13.15 =====
+       hallazgo origen     prob  corte_max_atencion
+            ACL dorado 0.493497                   3
+            ACL dorado 0.475113                   8
+Medial Meniscus dorado 0.527761                   0
+Medial Meniscus dorado 0.520167                   8
+       Effusion dorado 0.627848                   3
+       Effusion dorado 0.605409                   3
+        Baker's dorado 0.463465                   2
+        Baker's dorado 0.444755                   3
+      Contusion dorado 0.526385                   3
+      Contusion dorado 0.506966                   2

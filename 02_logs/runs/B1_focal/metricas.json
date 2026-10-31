@@ -1,0 +1,40 @@
+{
+  "run": "B1_focal",
+  "arch": "resnet50",
+  "slot": "sag_fluid",
+  "loss": "focal",
+  "ruido": "peso",
+  "pos_weight": "sqrt",
+  "sampler": "none",
+  "target": "binario",
+  "parametros_M": 23.79644,
+  "mejor_epoca": 5,
+  "auc_val_debil": 0.7055172200989027,
+  "auc_macro_dorado": 0.6984498277662706,
+  "ic95_dorado": [
+    0.6447896670799912,
+    0.7499349834369083
+  ],
+  "f1_macro_dorado": 0.5053132809297127,
+  "precision_macro_dorado": 0.4980496190384524,
+  "recall_macro_dorado": 0.5878388316239979,
+  "auc_por_hallazgo": {
+    "ACL": 0.7352,
+    "MCL": 0.5012,
+    "Medial Meniscus": 0.6042,
+    "Lateral Meniscus": 0.6574,
+    "Medial OA": 0.6634,
+    "Lateral OA": 0.8,
+    "PF OA": 0.7181,
+    "Effusion": 0.8115,
+    "Synovitis": 0.689,
+    "Baker's": 0.8444,
+    "Contusion": 0.7295,
+    "Fracture": 0.6275
+  },
+  "min_entrenamiento": 2.8949658632278443,
+  "seg_inferencia_por_estudio": 0.01624562910624913,
+  "n_train": 425,
+  "n_val": 75,
+  "n_dorado": 56
+}

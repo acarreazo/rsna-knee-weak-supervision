@@ -1,0 +1,17 @@
+{
+  "run": "C2_sampler",
+  "arch": "resnet50",
+  "slot": "sag_fluid",
+  "loss": "bce",
+  "ruido": "peso",
+  "pos_weight": "sqrt",
+  "sampler": "raros",
+  "target": "binario",
+  "epochs": 12,
+  "bs": 6,
+  "lr": null,
+  "patience": 4,
+  "workers": 2,
+  "no_pretrained": false,
+  "max_steps": 0
+}

@@ -1,0 +1,14 @@
+===== inicio 02b_extractor_nli | 2026-10-30 08:08:59 | python 3.13.15 =====
+reportes a procesar: 558
+  ACL: media=0.660
+  MCL: media=0.577
+  Medial Meniscus: media=0.388
+  Lateral Meniscus: media=0.309
+  Medial OA: media=0.913
+  Lateral OA: media=0.896
+  PF OA: media=0.948
+  Effusion: media=0.790
+  Synovitis: media=0.573
+  Baker's: media=0.615
+  Contusion: media=0.701
+  Fracture: media=0.809

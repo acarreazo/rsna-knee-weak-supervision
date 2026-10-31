@@ -1,0 +1,32 @@
+===== inicio runs/C1_sin_posw/train | 2026-10-30 08:29:29 | python 3.13.15 =====
+dispositivo: cuda Tesla T4
+train=425 val=75 dorado=56
+fracción de etiquetas usadas (w>0): 1.000  peso medio: 0.678
+arch=resnet50 parámetros=23.80M lr_head=0.001 lr_backbone=0.0001
+ep 01 loss=0.6208 AUC_val(débil)=0.6185 t=0.3min
+ep 02 loss=0.5817 AUC_val(débil)=0.5555 t=0.7min
+ep 03 loss=0.5552 AUC_val(débil)=0.6822 t=1.0min
+ep 04 loss=0.5232 AUC_val(débil)=0.6635 t=1.3min
+ep 05 loss=0.4833 AUC_val(débil)=0.6911 t=1.6min
+ep 06 loss=0.4490 AUC_val(débil)=0.6823 t=1.9min
+ep 07 loss=0.4257 AUC_val(débil)=0.7238 t=2.3min
+ep 08 loss=0.3740 AUC_val(débil)=0.7336 t=2.6min
+ep 09 loss=0.3548 AUC_val(débil)=0.7278 t=2.9min
+ep 10 loss=0.3087 AUC_val(débil)=0.7219 t=3.2min
+ep 11 loss=0.3079 AUC_val(débil)=0.7171 t=3.5min
+ep 12 loss=0.2953 AUC_val(débil)=0.7247 t=3.8min
+early stopping
+        hallazgo  n_pos   auc  umbral  precision  recall    f1  f1@0.5
+             ACL     23 0.706   0.323      0.560   0.609 0.583   0.619
+             MCL      9 0.596   0.266      0.222   0.444 0.296   0.308
+ Medial Meniscus     24 0.542   0.076      0.421   0.667 0.516   0.364
+Lateral Meniscus     23 0.597   0.147      0.455   0.435 0.444   0.154
+       Medial OA     15 0.680   0.355      0.625   0.333 0.435   0.211
+      Lateral OA     11 0.790   0.232      0.333   0.545 0.414   0.167
+           PF OA     20 0.679   0.190      0.478   0.550 0.512   0.357
+        Effusion     34 0.715   0.269      0.651   0.824 0.727   0.735
+       Synovitis     25 0.612   0.402      0.500   0.120 0.194   0.071
+         Baker's     11 0.731   0.440      0.353   0.545 0.429   0.522
+       Contusion     18 0.759   0.195      0.395   0.833 0.536   0.649
+        Fracture     17 0.662   0.292      0.857   0.353 0.500   0.381
+==> C1_sin_posw: AUC macro DORADO = 0.6724 IC95=[0.614,0.728] | F1 macro = 0.465 | 3.8 min

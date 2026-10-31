@@ -1,0 +1,7 @@
+comparacion,delta_auc,ic95_lo,ic95_hi,P(delta>0)
+A1_scratch vs A2_resnet50,-0.0867,-0.1549,-0.016,0.0125
+B1_focal vs A2_resnet50,0.04,0.0022,0.0783,0.9825
+B2_altaconf vs A2_resnet50,0.0284,-0.0111,0.0687,0.9255
+B3_coronal vs A2_resnet50,0.0133,-0.0465,0.0692,0.667
+C1_sin_posw vs A2_resnet50,0.0139,-0.0411,0.0662,0.695
+C2_sampler vs A2_resnet50,0.033,-0.0243,0.0874,0.8755

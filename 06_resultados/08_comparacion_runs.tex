@@ -1,0 +1,13 @@
+\begin{tabular}{lllllllrrrrlrrrr}
+\toprule
+run & arch & slot & loss & ruido & pos\_weight & sampler & parametros\_M & mejor\_epoca & auc\_val\_debil & auc\_macro\_dorado & ic95\_dorado & f1\_macro\_dorado & precision\_macro\_dorado & recall\_macro\_dorado & min\_entrenamiento \\
+\midrule
+A1\_scratch & scratch & sag\_fluid & bce & peso & sqrt & none & 1.911900 & 1 & 0.620300 & 0.571700 & [0.506, 0.630] & 0.413000 & 0.389400 & 0.551900 & 0.993300 \\
+A2\_resnet50 & resnet50 & sag\_fluid & bce & peso & sqrt & none & 23.796400 & 6 & 0.708400 & 0.658400 & [0.601, 0.716] & 0.486200 & 0.471500 & 0.597900 & 3.214000 \\
+B1\_focal & resnet50 & sag\_fluid & focal & peso & sqrt & none & 23.796400 & 5 & 0.705500 & 0.698400 & [0.645, 0.750] & 0.505300 & 0.498000 & 0.587800 & 2.895000 \\
+B2\_altaconf & resnet50 & sag\_fluid & bce & alta\_conf & sqrt & none & 23.796400 & 6 & 0.701300 & 0.686900 & [0.634, 0.741] & 0.555700 & 0.487800 & 0.708600 & 3.211700 \\
+B3\_coronal & resnet50 & cor\_fluid & bce & peso & sqrt & none & 23.796400 & 5 & 0.707900 & 0.686400 & [0.627, 0.743] & 0.523400 & 0.474600 & 0.645700 & 2.893200 \\
+C1\_sin\_posw & resnet50 & sag\_fluid & bce & peso & none & none & 23.796400 & 8 & 0.733600 & 0.672400 & [0.614, 0.728] & 0.465500 & 0.487500 & 0.521600 & 3.838000 \\
+C2\_sampler & resnet50 & sag\_fluid & bce & peso & sqrt & raros & 23.796400 & 6 & 0.693800 & 0.691500 & [0.642, 0.737] & 0.499900 & 0.487600 & 0.595700 & 3.208400 \\
+\bottomrule
+\end{tabular}

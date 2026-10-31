@@ -1,0 +1,31 @@
+===== inicio runs/C2_sampler/train | 2026-10-30 08:33:42 | python 3.13.15 =====
+dispositivo: cuda Tesla T4
+train=425 val=75 dorado=56
+fracción de etiquetas usadas (w>0): 1.000  peso medio: 0.678
+pos_weight: {'ACL': np.float32(2.16), 'MCL': np.float32(2.38), 'Medial Meniscus': np.float32(1.38), 'Lateral Meniscus': np.float32(2.31), 'Medial OA': np.float32(1.92), 'Lateral OA': np.float32(2.57), 'PF OA': np.float32(1.92), 'Effusion': np.float32(1.03), 'Synovitis': np.float32(2.52), "Baker's": np.float32(1.75), 'Contusion': np.float32(1.71), 'Fracture': np.float32(2.91)}
+arch=resnet50 parámetros=23.80M lr_head=0.001 lr_backbone=0.0001
+ep 01 loss=0.9248 AUC_val(débil)=0.5704 t=0.3min
+ep 02 loss=0.8615 AUC_val(débil)=0.6636 t=0.7min
+ep 03 loss=0.7341 AUC_val(débil)=0.6630 t=1.0min
+ep 04 loss=0.6243 AUC_val(débil)=0.6607 t=1.3min
+ep 05 loss=0.4970 AUC_val(débil)=0.6838 t=1.6min
+ep 06 loss=0.4085 AUC_val(débil)=0.6938 t=1.9min
+ep 07 loss=0.3284 AUC_val(débil)=0.6902 t=2.3min
+ep 08 loss=0.2922 AUC_val(débil)=0.6818 t=2.6min
+ep 09 loss=0.2458 AUC_val(débil)=0.6725 t=2.9min
+ep 10 loss=0.1996 AUC_val(débil)=0.6668 t=3.2min
+early stopping
+        hallazgo  n_pos   auc  umbral  precision  recall    f1  f1@0.5
+             ACL     23 0.711   0.771      0.700   0.304 0.424   0.596
+             MCL      9 0.738   0.565      0.333   0.778 0.467   0.438
+ Medial Meniscus     24 0.577   0.116      0.426   0.958 0.590   0.308
+Lateral Meniscus     23 0.549   0.035      0.463   0.826 0.594   0.194
+       Medial OA     15 0.753   0.725      0.400   0.267 0.320   0.444
+      Lateral OA     11 0.659   0.650      0.333   0.273 0.300   0.385
+           PF OA     20 0.743   0.388      0.619   0.650 0.634   0.632
+        Effusion     34 0.807   0.340      0.682   0.882 0.769   0.746
+       Synovitis     25 0.612   0.145      0.615   0.320 0.421   0.138
+         Baker's     11 0.931   0.332      0.562   0.818 0.667   0.636
+       Contusion     18 0.659   0.184      0.359   0.778 0.491   0.550
+        Fracture     17 0.558   0.197      0.357   0.294 0.323   0.100
+==> C2_sampler: AUC macro DORADO = 0.6915 IC95=[0.642,0.737] | F1 macro = 0.500 | 3.2 min

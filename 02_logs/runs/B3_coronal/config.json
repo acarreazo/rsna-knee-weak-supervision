@@ -1,0 +1,17 @@
+{
+  "run": "B3_coronal",
+  "arch": "resnet50",
+  "slot": "cor_fluid",
+  "loss": "bce",
+  "ruido": "peso",
+  "pos_weight": "sqrt",
+  "sampler": "none",
+  "target": "binario",
+  "epochs": 12,
+  "bs": 6,
+  "lr": null,
+  "patience": 4,
+  "workers": 2,
+  "no_pretrained": false,
+  "max_steps": 0
+}

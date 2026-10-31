@@ -1,0 +1,15 @@
+# Datos de la competencia y derivados con UIDs o texto de reportes (ver 01_decisiones D010)
+05_datos/*.csv
+02_logs/runs/*/pred_*.csv
+cache/
+*.npy
+*.dcm
+# Pesos
+*.pt
+*.pth
+# Ejecuciones locales (P1_WORK=salida_local)
+salida_local/
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.zip

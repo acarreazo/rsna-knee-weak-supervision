@@ -1,0 +1,13 @@
+hallazgo,n_pos_train,prev_train,n_pos_val,prev_val,n_pos_test_dorado,prev_test_dorado
+ACL,75,0.176,7,0.093,23,0.411
+MCL,64,0.151,10,0.133,9,0.161
+Medial Meniscus,147,0.346,33,0.44,24,0.429
+Lateral Meniscus,67,0.158,15,0.2,23,0.411
+Medial OA,91,0.214,11,0.147,15,0.268
+Lateral OA,56,0.132,10,0.133,11,0.196
+PF OA,91,0.214,16,0.213,20,0.357
+Effusion,206,0.485,37,0.493,34,0.607
+Synovitis,58,0.136,12,0.16,25,0.446
+Baker's,105,0.247,20,0.267,11,0.196
+Contusion,108,0.254,14,0.187,18,0.321
+Fracture,45,0.106,8,0.107,17,0.304
